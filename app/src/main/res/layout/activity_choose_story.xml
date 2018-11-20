@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChooseStory">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="228dp"
+        android:layout_weight="0.1"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/madlibs" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:text="Choose Your Story"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Simple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="checkClicked"
+        android:text="Simple" />
+
+    <Button
+        android:id="@+id/Tarzan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="checkClicked"
+        android:text="Tarzan" />
+
+    <Button
+        android:id="@+id/University"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="checkClicked"
+        android:text="University" />
+
+    <Button
+        android:id="@+id/Clothes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="checkClicked"
+        android:text="Clothes" />
+
+    <Button
+        android:id="@+id/Dance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="checkClicked"
+        android:text="Dance" />
+</LinearLayout>

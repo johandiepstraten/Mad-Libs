@@ -16,8 +16,7 @@
  * A Story is Serializable, so it can be packed into an Intent as "extra" data.
  */
 
-// !YOU MAY WANT TO CHANGE THE PACKAGE BELOW SO THAT IT MATCHES YOUR PROJECT'S PACKAGE!
-package com.example.stepp.madlibs;
+package com.example.johan.madlibs;
 
 import java.io.*;
 import java.util.*;
@@ -30,6 +29,7 @@ public class Story implements Serializable {
 
     {
         // instance initializer; runs before any constructor
+
         text = "";
         placeholders = new ArrayList<String>();
         filledIn = 0;
