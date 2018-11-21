@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/Logo"
-        android:layout_width="268dp"
-        android:layout_height="289dp"
+        android:layout_width="290dp"
+        android:layout_height="331dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
@@ -23,7 +23,7 @@
     <TextView
         android:id="@+id/Manual"
         android:layout_width="278dp"
-        android:layout_height="226dp"
+        android:layout_height="248dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
